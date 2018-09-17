@@ -1,24 +1,132 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Gray's Website</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Bonsai Trees</title>
+    <style>
+        aside {
+            font-size: 20px;
+            text-align: center;
+            position: absolute;
+            right: 75px;
+            top: 150px;
+            width: 150px;
+            padding: 5px;
+            border: 1px solid black;
+            margin: 5px;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCsr_7N1vF-WcajddYb5CIskozeSc6BX4xWPGVHN_XynE0xu7dQ)
+        }
 
+        article {
+            left: 50px;
+        }
+
+        article img {
+            float: right;
+        }
+
+        article p {
+            text-align: left;
+        }
+
+        .p1 {
+            position: relative;
+            top: 40px;
+        }
+
+        .p2 {
+            clear: right;
+        }
+
+        .list {
+            position: absolute;
+            right: 75px;
+            bottom: 50px;
+        }
+
+        .l1 {
+            position: absolute;
+            left: 10px;
+        }
+
+        .l2 {
+            position: absolute;
+            left: 110px;
+        }
+
+        .l3 {
+            position: absolute;
+            left: 275px;
+        }
+
+        div a {
+            position: absolute;
+            top: 119px;
+            font-size: 12px;
+            color: grey;
+        }
+
+    </style>
 </head>
 
 <body>
-    <h3>Some random text</h3>
-    <p>
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
-        from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-        looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites
-        of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
-        1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book
-        is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem
-        ipsum dolor sit amet..", comes from a line in section 1.10.32.
+    <div>
+        <a class="l1" href="index.html#Popular">Link to nested list</a>
+        <a class="l2" href="index.html#Email">Link to my contact information</a>
+        <a class="l3" href="index.html#BackgroundImage">Link to my sources</a>
+    </div>
 
-
-        
-    </p>
+    <header>
+        <h1>Bonsai Trees</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="watering/watering.html">Watering Tips</a></li>
+            <li><a href="sunlight/sunlight.html">Sunlight Tips</a></li>
+            <li><a href="soil/soil.html">Soil Tips</a></li>
+        </ul>
+    </nav>
+    <article>
+        <img src="https://presentationpictures.files.wordpress.com/2010/07/bonsai-ulme.jpg" alt="Chinese Elm Bonsai Tree" width="250"
+            height="250">
+        <p class="p1">The literal meaning for the word bonsai is, “potted tree”. By planting a tree in a pot, it restricts
+            the tree from growing to its full potential, causing the tree to be miniature. Shrinking the size of a tree allows
+            for people to focus on each aspect of the tree in great detail, which renders a greater appreciation.</p>
+        <p class="p2">
+            The culture of bonsai originated in China around 700 AD. During the Kamakura period Japan adopted a vast amount of China’s
+            culture, including the culture of bonsai. It wasn’t until three centuries ago that the culture of bonsai began
+            to spread to other parts of the world. Today, bonsai culture is considered an art.
+        </p>
+    </article>
+    <div class="list">
+        <ul>
+            <li>Popular Decidious Trees for Bonsai
+                <ul>
+                    <li>Japanese Red Maple</li>
+                    <li>Chinese Elm</li>
+                    <li>Oak</li>
+                </ul>
+            </li>
+            <li>Popular Evergreen Treea for Bonsai
+                <ul>
+                    <li>Azaela</li>
+                    <li>Jade</li>
+                    <li>Ficus</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <aside>
+        <p>There is a common misconception that in order to plant a bonsai tree you need a "special" kind of seed. The truth
+            is that bonsai trees grow from normal size tree seeds. </p>
+    </aside>
+    <footer>
+        <p>Bonsai Image is from presentationpictures.wordpress.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Background Images is from
+            www.123rf.com&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email me at <a href="mailto:gcrouch@harding.edu">gcrouch@harding.edu</a></p>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,76 @@
+body {
+    background-color: #96c52852
+}
+
+header {
+    border: 5px solid black;
+}
+
+h1 {
+    font-family: Raleway, sans-serif;
+    font-size:40px;
+    color: green;
+}
+
+nav ul{
+    text-align: center;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+} 
+
+li a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(78, 78, 78);
+}
+
+li a:link {
+    color: rgb(78, 78, 78);
+}
+
+li a:visited {
+    color: rgba(230, 3, 41, 0.904);
+}
+
+li a:hover {
+    color: white;
+}
+
+article {
+    font-size: 20px;
+    font-family: Abel, sans-serif;
+    text-align: justify;
+    width: 900px;
+    position: absolute;
+    left: 175px;
+    width: 800px;
+
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    position: absolute;
+    bottom: 150px;
+    left: 500px
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+}
+
+.bonimg {
+    position: absolute;
+    left: 500px;
+    bottom: 100px;
+}
+
+
