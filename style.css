@@ -49,11 +49,6 @@ article {
     position: absolute;
     left: 175px;
     width: 800px;
-
-}
-
-table, td, th {
-    border: 1px solid black;
 }
 
 table {
@@ -62,15 +57,14 @@ table {
     left: 500px
 }
 
+table, td, th {
+    border: 1px solid black;
+}
+
 footer {
     position: absolute;
     bottom: 0px;
 }
 
-.bonimg {
-    position: absolute;
-    left: 500px;
-    bottom: 100px;
-}
 
 
